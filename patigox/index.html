@@ -61,17 +61,17 @@
       var buildUrl = "Build";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/3304dd6843adac0c08971d3560e343e8.data.unityweb",
+        dataUrl: buildUrl + "/0e5fa71e46655f919c4f4b76311e181b.data.unityweb",
         frameworkUrl: buildUrl + "/e5f225420d3ebc145d807bee09d2c299.framework.js.unityweb",
-        codeUrl: buildUrl + "/b4e4a2d7fc1c38b802b4bbb405ff1d05.wasm.unityweb",
+        codeUrl: buildUrl + "/0ded84ef8273213510e91668d6ace003.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PatiGo",
         productName: "PatiGo X",
-        productVersion: "0.9.1127.1346",
+        productVersion: "0.9.1127.1405",
         showBanner: unityShowBanner,
       };
       var script = document.createElement("script");
-      script.src = buildUrl + "/05d667172ae1a55800a4e9fee8f13b17.loader.js";
+      script.src = buildUrl + "/62227337b0b5043581ed7441f198f249.loader.js";
       script.onload = function () {
         createUnityInstance(canvas, config, function (progress) {
           document.querySelector("#fill").style.width = (100 * progress) + "%";
