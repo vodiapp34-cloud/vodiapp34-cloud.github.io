@@ -61,20 +61,20 @@
       var buildUrl = "Build";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/c6251d83b1a37f85bc887245a2978419.data.unityweb",
+        dataUrl: buildUrl + "/82a459ca965837784efa09d3d61f971e.data.unityweb",
         frameworkUrl: buildUrl + "/e5f225420d3ebc145d807bee09d2c299.framework.js.unityweb",
-        codeUrl: buildUrl + "/486ae588cc3397f53557dfb4e936ff7f.wasm.unityweb",
+        codeUrl: buildUrl + "/f3dde6ecd54c372fda36e6f8fc809ffb.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PatiGo",
         productName: "PatiGo X",
-        productVersion: "0.9.1128.0227",
+        productVersion: "0.9.1128.0247",
         showBanner: unityShowBanner,
         // Retina / phone screens: drawing at the full device pixel ratio meant 3-4x the pixels and freezes (owner 28 Nov).
         // 1.25 keeps the picture sharp while the GPU keeps up.
         devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.25),
       };
       var script = document.createElement("script");
-      script.src = buildUrl + "/19d3b39dae2e59e058aca8f73554bc11.loader.js";
+      script.src = buildUrl + "/c386538438383ea5d9bbd0135e86e995.loader.js";
       script.onload = function () {
         createUnityInstance(canvas, config, function (progress) {
           document.querySelector("#fill").style.width = (100 * progress) + "%";
