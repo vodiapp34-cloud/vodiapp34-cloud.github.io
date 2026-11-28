@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>PatiGo X - İstanbul çatılarında koş!</title>
-    <meta name="description" content="Nox'la Kapalıçarşı'nın yağmurlu çatılarında koş, balık topla, engellerden kaç. Tarayıcıda hemen oyna.">
+    <meta name="description" content="Nox'la Kapalıçarşı'nın çatılarında koş, balık topla, engellerden kaç. Tarayıcıda hemen oyna.">
     <meta name="theme-color" content="#0a0e22">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
@@ -12,7 +12,7 @@
     <meta name="apple-mobile-web-app-title" content="PatiGo X">
     <meta property="og:type" content="website">
     <meta property="og:title" content="PatiGo X - İstanbul çatılarında koş!">
-    <meta property="og:description" content="Nox'la Kapalıçarşı'nın yağmurlu çatılarında koş, balık topla, engellerden kaç. Tarayıcıda hemen oyna.">
+    <meta property="og:description" content="Nox'la Kapalıçarşı'nın çatılarında koş, balık topla, engellerden kaç. Tarayıcıda hemen oyna.">
     <meta property="og:image" content="https://vodiapp34-cloud.github.io/patigox/og.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -61,20 +61,20 @@
       var buildUrl = "Build";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/82a459ca965837784efa09d3d61f971e.data.unityweb",
+        dataUrl: buildUrl + "/73c2a23690f680f33d3daa2652150886.data.unityweb",
         frameworkUrl: buildUrl + "/e5f225420d3ebc145d807bee09d2c299.framework.js.unityweb",
-        codeUrl: buildUrl + "/f3dde6ecd54c372fda36e6f8fc809ffb.wasm.unityweb",
+        codeUrl: buildUrl + "/d1ae23a90ad13a3b69e2eaf9f0bbe85c.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PatiGo",
         productName: "PatiGo X",
-        productVersion: "0.9.1128.0247",
+        productVersion: "0.9.1128.0318",
         showBanner: unityShowBanner,
         // Retina / phone screens: drawing at the full device pixel ratio meant 3-4x the pixels and freezes (owner 28 Nov).
         // 1.25 keeps the picture sharp while the GPU keeps up.
         devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.25),
       };
       var script = document.createElement("script");
-      script.src = buildUrl + "/c386538438383ea5d9bbd0135e86e995.loader.js";
+      script.src = buildUrl + "/d9fa50c66553e93ee4471cc10343df08.loader.js";
       script.onload = function () {
         createUnityInstance(canvas, config, function (progress) {
           document.querySelector("#fill").style.width = (100 * progress) + "%";
